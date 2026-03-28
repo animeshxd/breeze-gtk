@@ -1,14 +1,5 @@
-# SPDX-FileCopyrightText: Andrew Lake <jamboarder@gmail.com>
-# SPDX-FileCopyrightText: Marco Martin <notmart@gmail.com>
-# SPDX-FileCopyrightText: Nate Graham <nate@kde.org>
-# SPDX-FileCopyrightText: Noah Davis <noahadvs@gmail.com>
-# SPDX-FileCopyrightText: Neal Gompa <ngompa@kde.org>
-# SPDX-FileCopyrightText: David Redondo <kde@david-redondo.de>
-# SPDX-FileCopyrightText: Thomas Duckworth <tduck973564@gmail.com>
-# SPDX-License-Identifier: LGPL-2.0-or-later
-
 [ColorEffects:Disabled]
-Color=248,248,248
+Color=189,189,191
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
@@ -18,7 +9,7 @@ IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=248,248,248
+Color=189,189,191
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
@@ -28,129 +19,82 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=30,30,30
+BackgroundAlternate=55,55,55
 BackgroundNormal=30,30,30
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+DecorationFocus=189,189,191
+DecorationHover=189,189,191
+ForegroundActive=255,255,255
+ForegroundInactive=112,112,112
+ForegroundLink=137,165,209
+ForegroundNegative=207,102,121
+ForegroundNeutral=226,192,141
+ForegroundNormal=189,189,191
+ForegroundPositive=129,178,154
+ForegroundVisited=172,141,175
 
 [Colors:Complementary]
 BackgroundAlternate=30,30,30
 BackgroundNormal=18,18,18
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+DecorationFocus=189,189,191
+DecorationHover=189,189,191
+ForegroundActive=255,255,255
+ForegroundInactive=112,112,112
+ForegroundLink=137,165,209
+ForegroundNormal=189,189,191
 
 [Colors:Header]
 BackgroundAlternate=18,18,18
 BackgroundNormal=30,30,30
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
-
-[Colors:Header][Inactive]
-BackgroundAlternate=18,18,18
-BackgroundNormal=10,10,10
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=204,204,204
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+DecorationFocus=189,189,191
+DecorationHover=189,189,191
+ForegroundActive=255,255,255
+ForegroundInactive=112,112,112
+ForegroundNormal=189,189,191
 
 [Colors:Selection]
-BackgroundAlternate=255,209,76
-BackgroundNormal=255,209,76
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=10,10,10
-ForegroundInactive=10,10,10
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=10,10,10
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+BackgroundAlternate=189,189,191
+BackgroundNormal=189,189,191
+DecorationFocus=255,255,255
+DecorationHover=255,255,255
+ForegroundActive=18,18,18
+ForegroundInactive=18,18,18
+ForegroundLink=18,18,18
+ForegroundNormal=18,18,18
 
 [Colors:Tooltip]
-BackgroundAlternate=18,18,18
 BackgroundNormal=18,18,18
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+ForegroundNormal=189,189,191
 
 [Colors:View]
 BackgroundAlternate=30,30,30
 BackgroundNormal=18,18,18
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+DecorationFocus=189,189,191
+DecorationHover=189,189,191
+ForegroundActive=255,255,255
+ForegroundInactive=112,112,112
+ForegroundNormal=189,189,191
 
 [Colors:Window]
 BackgroundAlternate=30,30,30
 BackgroundNormal=18,18,18
-DecorationFocus=255,158,0
-DecorationHover=255,158,0
-ForegroundActive=255,158,0
-ForegroundInactive=204,204,204
-ForegroundLink=255,179,0
-ForegroundNegative=255,107,107
-ForegroundNeutral=192,112,0
-ForegroundNormal=248,248,248
-ForegroundPositive=45,224,167
-ForegroundVisited=255,146,223
+DecorationFocus=189,189,191
+DecorationHover=189,189,191
+ForegroundActive=255,255,255
+ForegroundInactive=112,112,112
+ForegroundNormal=189,189,191
 
 [General]
-ColorScheme=Sunset
-Name=Sunset
+ColorScheme=Industrial
+Name=Industrial
 shadeSortColumn=true
 
 [KDE]
-contrast=6
+contrast=7
 
 [WM]
 activeBackground=18,18,18
-activeBlend=255,158,0
-activeForeground=248,248,248
+activeBlend=189,189,191
+activeForeground=189,189,191
 inactiveBackground=10,10,10
-inactiveBlend=204,204,204
-inactiveForeground=204,204,204
+inactiveBlend=55,55,55
+inactiveForeground=112,112,112
